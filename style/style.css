@@ -393,8 +393,18 @@ footer .soc-button {
 .foto-item {
     position: relative;
 }
+.active .darkglass {
+    display: none;
+}
+
 .foto-item:hover .darkglass{
     display: none;
+}
+.active .data-text {
+    top: 50%;
+}
+.active .data-text h3 {
+    color: #000000;
 }
 .foto-item:hover img{
     height: 200%;
@@ -408,11 +418,11 @@ footer .soc-button {
 .data-text h3 {
     color: #d89b64;
     text-align: center;
-    font-size: 48px;
+    font-size: 4vw;
 
 }
 .data-text p {
-    font-size: 24px;
+    font-size: 2vw;
 }
 .foto-item:hover .data-text {
     top: 50%;
@@ -425,4 +435,83 @@ footer .soc-button {
 
 .foto-item .darkglass {
     opacity: 0.7;
+}
+
+
+.details-product {
+  position: relative;
+  width: 100%;
+  height: 50vw;
+  background-image: url("../images/background-details.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.details-preparation {
+    position: absolute;
+    top: 8vw;
+    left: 50%;
+    margin-left: -30vw;
+    width: 60vw;
+    height: 34vw;
+    background: #ffffff;
+}
+.text-content {
+    width: 54vw;
+    height: 28vw;
+    margin-top: 3vw;
+    margin-left: 3vw;
+    text-align: center;
+    border: 1px solid gray;
+}
+.text-content h3 {
+    text-align: center;
+    font-size: 4vw;
+    text-transform: uppercase;
+}
+.text-content p {
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+.text-content .btn {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #e2b48b;
+  font-size: 2vw;
+  padding: 1vw;
+  border: 1px solid gray;
+}
+.reaching {
+    background: #ffffff;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    background: #FEFDD6;
+}
+.reaching h2 {
+    text-align: center;
+    font-size: 4vw;
+    text-transform: uppercase;
+}
+.reaching h3 {
+    text-align: center;
+    font-size: 2vw;
+    text-transform: uppercase;
+    color: #e2b48b;
+}
+.recipes {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.recipe {
+    padding: 5vw 0;
+}
+.recipes .fresh {
+    background-color: #151b28;
+}
+.recipes .fresh p {
+    color: #ffffff;
 }
